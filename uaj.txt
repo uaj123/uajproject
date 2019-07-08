@@ -17,3 +17,20 @@ def fun():
 		print("")
 fun()
 
+class B(object):
+    def func(self):
+        print("run")
+
+    def fuc(self):
+        print("eat" + self.food)
+
+    def __init__(self,name,age,weight,food):
+        self.__name = name
+        self.__age  = age
+        self.__weigth = weight
+        self.food = food
+
+
+per = B("TOM",12,139,"花草")
+per.func()
+per.fuc()

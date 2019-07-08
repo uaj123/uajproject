@@ -42,3 +42,4 @@ for i in range(199):
 		break
 
 print("uaj is a good man")
+print("uaj is a nice man")

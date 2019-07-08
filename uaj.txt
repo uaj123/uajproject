@@ -34,3 +34,9 @@ class B(object):
 per = B("TOM",12,139,"花草")
 per.func()
 per.fuc()
+
+
+for i in range(199):
+	print(i)
+	if i == 4:
+		break
